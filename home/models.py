@@ -11,3 +11,6 @@ class HomePage(Page):
     content_panels = Page.content_panels + [
         FieldPanel('body')
     ]
+
+    class Meta:
+        verbose_name = 'homepage'
